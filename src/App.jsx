@@ -1,18 +1,18 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React, { Component } from "react";
+import Hello from "./Hello";
+import Header from "./Header";
+import Footer from "./Footer";
 
 class App extends Component {
-  static propTypes = {
-    prop: PropTypes
-  }
-
   render() {
     return (
       <div>
-        <h3>Hello World!</h3>
+        <Header />
+        <Hello />
+        <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;
