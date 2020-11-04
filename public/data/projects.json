@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "My First Website",
+      "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
+      "description": "This was my first project."
+    },
+    {
+      "id": 2,
+      "name": "FizzBuzz",
+      "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
+      "description": "Making ruby backend application is fun."
+    },
+    {
+      "id": 3, 
+      "name": "Mobile UX",
+      "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
+      "description": "I like to design for the mobile platform."
+    }
+]
