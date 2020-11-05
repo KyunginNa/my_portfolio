@@ -1,6 +1,6 @@
 # Portfolio
 
-This website is made with React 17.0.1. You can check some brief information about me and my projects I have worked on.
+This website is made with React 17.0.1. You can check some brief information about me and my projects.
 
 ## The code
 
