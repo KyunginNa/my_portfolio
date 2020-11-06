@@ -20,8 +20,8 @@ describe("user can navigate the app", () => {
              cy.get("#projects-header").should("not.exist")
         })
 
-        it("does not display Hello World", () => {
-            cy.get("#hello").should("not.exist")
+        it("does not display Hi", () => {
+            cy.get(".header").should("not.contain","Hi!")
         })
     })
 
@@ -42,19 +42,19 @@ describe("user can navigate the app", () => {
             cy.get("#about-header").should("not.exist")
         })
 
-         it("does not display Hello World", () => {
-            cy.get("#hello").should("not.exist")
+         it("does not display Home header", () => {
+            cy.get("#home").should("not.exist")
         })
     })
 
-    describe("back to My Portfolio tab and it", () => {
+    describe("back to Home tab and it", () => {
         beforeEach(() => {
             cy.get("#about-tab").click()
             cy.get("#header").click()
         })
 
-        it("displays Hello World", () => {
-            cy.get("#hello").should("contain", "Hello World")
+        it("displays Hi", () => {
+            cy.get(".header").should("contain", "Hi!")
         })
 
         it("displays correct url", () => {
