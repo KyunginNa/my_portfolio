@@ -23,7 +23,7 @@ const Home = () => {
               </p>
               <p>
                 On this website, you can find some brief information about me
-                and the projects that I have worked on.
+                and check the projects that I have worked on.
               </p>
             </Item.Description>
           </Item.Content>
