@@ -3,7 +3,7 @@ import { Menu } from "semantic-ui-react";
 import { NavLink, Link } from "react-router-dom";
 
 class Header extends Component {
-  state = { activeItem: "" };
+  state = { activeItem: "home" };
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
