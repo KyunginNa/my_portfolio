@@ -20,8 +20,8 @@ describe("user can navigate the app", () => {
              cy.get("#projects-header").should("not.exist")
         })
 
-        it("does not display Hi", () => {
-            cy.get(".header").should("not.contain","Hi!")
+        it("does not display Home header", () => {
+            cy.get("#home").should("not.exist")
         })
     })
 
@@ -54,7 +54,7 @@ describe("user can navigate the app", () => {
         })
 
         it("displays Hi", () => {
-            cy.get(".header").should("contain", "Hi!")
+            cy.get("#home").should("contain", "Hi!")
         })
 
         it("displays correct url", () => {

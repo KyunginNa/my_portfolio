@@ -3,6 +3,6 @@ describe("Portfolio interface", () => {
         cy.visit("http://localhost:3000/");
         cy.get("#header").should("contain", "Home");
         cy.get("#footer").should("contain", "Made with React 17.0.1");
-        cy.get(".header").should("contain", "Hi!");
+        cy.get("#home").should("contain", "Hi!");
     })
 })
