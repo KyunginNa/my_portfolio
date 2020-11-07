@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "semantic-ui-react";
 import "./home.css";
+import HomeIcon from "./HomeIcon";
 
 const Home = () => {
   return (
@@ -12,11 +13,13 @@ const Home = () => {
       <p>
         I'm currently studying at Craft Academy to start a career as a full
         stack web developer.
-      </p>
-      <p>
+        <br />
         On this website, you can find some brief information about me and check
         the projects that I have worked on.
       </p>
+      <div id="homeIcon">
+        <HomeIcon />
+      </div>
     </Container>
   );
 };
