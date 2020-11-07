@@ -6,10 +6,10 @@ import HomeIcon from "./HomeIcon";
 const Home = () => {
   return (
     <Container id="welcome">
-      <h1 id="home">Hi!😃</h1>
-      <h2>
+      <h2 id="home">Hi!😃</h2>
+      <h1>
         My name is Kyungin Na, <br />a web developer based in Stockholm, Sweden.
-      </h2>
+      </h1>
       <p>
         I'm currently studying at Craft Academy to start a career as a full
         stack web developer.
