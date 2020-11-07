@@ -43,7 +43,7 @@ const Skills = () => {
           </List>
         </Grid.Column>
         <Grid.Column>
-          <h4>Testing Framework</h4>
+          <h4>Tools</h4>
           <List>
             <List.Item>
               <List.Content>Git & Github</List.Content>
