@@ -4,7 +4,7 @@ import { Image, List, Grid } from "semantic-ui-react";
 const BasicInfo = () => {
   return (
     <div>
-      <Grid style={{ marginTop: "-1.5em" }}>
+      <Grid id="about-basic" style={{ marginTop: "-1.5em" }}>
         <Grid.Row centered verticalAlign="middle">
           <Grid.Column width={3}>
             <Image src="photo/grad.png" size="medium" circular bordered />
@@ -23,11 +23,11 @@ const BasicInfo = () => {
                 }
               />
             </List>
-            <p>
+            <p id="about-basic-passion">
               I have a passion in creating things and solving problems in
-              logical ways, which explains why I fell
-              <br /> in love with programming. I aim to be a programmer who
-              makes applications in user-friendly ways.
+              logical ways, which explains why I fell in love with programming.
+              I aim to be a programmer who makes applications in user-friendly
+              ways.
             </p>
           </Grid.Column>
         </Grid.Row>

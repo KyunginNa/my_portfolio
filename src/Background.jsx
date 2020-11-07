@@ -3,7 +3,7 @@ import { Divider, Header, Icon, Grid } from "semantic-ui-react";
 
 const Background = () => {
   return (
-    <div>
+    <div id="about-back">
       <Divider horizontal>
         <Header as="h4">
           <Icon name="user" />
@@ -12,7 +12,7 @@ const Background = () => {
       </Divider>
       <Grid columns={1} textAlign="center">
         <Grid.Column width={10}>
-          <p>
+          <p id="about-back-summary">
             I was born and raised in South Korea. After graduating from high
             school, I moved to Japan and studied Business and Economics at Kyoto
             University. I worked as a business consultant at a multinational IT
