@@ -37,6 +37,17 @@ footer {
   visibility: hidden;
 }
 
+#intro {
+  font-size: 16px;
+  padding-top: 8px;
+}
+
+#welcome {
+  margin-top: 14em;
+  text-align: left;
+}
+
+
 /* #about-header {
   margin-bottom: 1.5em;
 } */

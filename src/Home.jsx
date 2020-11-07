@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "semantic-ui-react";
-import "./home.css";
 import HomeIcon from "./HomeIcon";
 
 const Home = () => {
