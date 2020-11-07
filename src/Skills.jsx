@@ -4,7 +4,7 @@ import { Divider, Header, Icon, Grid, List } from "semantic-ui-react";
 const Skills = () => {
   return (
     <div>
-      <Divider horizontal style={{ marginBottom: "2em" }}>
+      <Divider horizontal>
         <Header as="h4">
           <Icon name="keyboard" />
           Skills

@@ -4,7 +4,7 @@ import { Divider, Header, Icon, Grid } from "semantic-ui-react";
 const Hobby = () => {
   return (
     <div>
-      <Divider horizontal style={{ marginBottom: "2em" }}>
+      <Divider horizontal>
         <Header as="h4">
           <Icon name="heart" />
           Hobby
