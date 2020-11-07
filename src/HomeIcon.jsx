@@ -13,15 +13,23 @@ const HomeIcon = () => {
         </Button>
       </a>
 
-      {/*             
-      <Icon.Group size="big">
-         <a href="https://www.linkedin.com/in/kyungin-na-636b8b175/">
-          <Icon name="linkedin" color="black" style={{ paddingRight: "5px" }} />
-        </a>
-        <a href="https://github.com/KyunginNa">
-          <Icon name="github" color="black" style={{ paddingRight: "5px" }} />
-        </a> 
-      </Icon.Group>  */}
+      <a href="https://www.linkedin.com/in/kyungin-na-636b8b175/">
+        <Button animated="vertical" basic color="grey">
+          <Button.Content hidden>
+            <Icon name="linkedin" />
+          </Button.Content>
+          <Button.Content visible>LinkedIn</Button.Content>
+        </Button>
+      </a>
+
+      <a href="https://github.com/KyunginNa">
+        <Button animated="vertical" basic color="grey">
+          <Button.Content hidden>
+            <Icon name="github" />
+          </Button.Content>
+          <Button.Content visible>Github</Button.Content>
+        </Button>
+      </a>
     </div>
   );
 };

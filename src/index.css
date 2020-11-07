@@ -37,6 +37,20 @@ footer {
   visibility: hidden;
 }
 
-/* #about-header {
-  margin-bottom: 1.5em;
-} */
+#intro {
+  font-size: 16px;
+  padding-top: 8px;
+}
+
+#welcome {
+  margin-top: 14em;
+  text-align: left;
+}
+
+.hobby {
+  margin-top: 1em;
+}
+
+#about-basic-passion{
+  width: 600px;
+}

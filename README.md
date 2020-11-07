@@ -18,6 +18,8 @@ Cypress
 ## Acknowledgements
 
 Project instructions from Craft Academy: (https://learn.craftacademy.co/courses/enrolled/659433)
+(https://bchiang7.github.io/v2/)
+(https://brittanychiang.com/)
 
 ## Update and Improvements plans
 

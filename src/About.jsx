@@ -1,11 +1,17 @@
 import React from "react";
 import { Container } from "semantic-ui-react";
+import BasicInfo from "./BasicInfo";
+import Background from "./Background";
+import Skills from "./Skills";
+import Hobby from "./Hobby";
 
 const About = () => {
   return (
     <Container>
-      <h1 id="about-header">About Me</h1>
-      <p>About me/To be updated</p>
+      <BasicInfo />
+      <Background />
+      <Skills />
+      <Hobby />
     </Container>
   );
 };
