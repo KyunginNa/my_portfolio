@@ -1,20 +1,26 @@
-[
-    {
+{
       "id": 1,
       "name": "My First Website",
-      "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-      "description": "This was my first project."
+      "image": "/photo/firstWebsite.png",
+      "description": "The first website I created using HTML,CSS and JS. It is my personal website to introduce myself.",
+      "technologies": "HTML|CSS|JavaScript",
+      "url": "https://kyungin-first-website.netlify.app/",
+      "github": "https://github.com/KyunginNa/first_website.git"
     },
     {
       "id": 2,
-      "name": "FizzBuzz",
-      "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-      "description": "Making ruby backend application is fun."
+      "name": "Address Book",
+      "image": "/photo/addressBook.png",
+      "description": "A single page web application for saving and viewing contacts. Contacts are saved in the user's local storage. Practiced TDD using Cypress.",
+      "technologies": "HTML|CSS|JavaScript|Cypress",
+      "url": "https://kyungin-address-book.netlify.app/",
+      "github": "https://github.com/KyunginNa/address_book"
     },
     {
       "id": 3, 
-      "name": "Mobile UX",
-      "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-      "description": "I like to design for the mobile platform."
+      "name": "Library",
+      "image": "/photo/library.png",
+      "description": "A backend program built with Ruby. It allows users to borrow and return books from a virtual library. Book data of the library is stored in a YAML file. Practiced TDD using RSpec.",
+      "technologies": "Ruby|RSpec|YAML",
+      "github": "https://github.com/KyunginNa/library-challenge.git"
     }
-]
