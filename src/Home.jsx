@@ -13,7 +13,7 @@ const Home = () => {
         I'm currently studying at Craft Academy to start a career as a full
         stack web developer.
         <br />
-        On this website, you can find some brief information about me and check
+        On this website, you can find some brief information about me and
         the projects that I have worked on.
       </p>
       <div id="homeIcon">
