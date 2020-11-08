@@ -1,7 +1,7 @@
 # Portfolio
 
 This website is my personal website built with React 17.0.1 and Semantic UI React.  
-You can find some information about me and my projects.
+You can find some information about me and my projects on this website.
 
 ## The code
 
