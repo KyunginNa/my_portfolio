@@ -3,7 +3,7 @@
       "id": 1,
       "name": "My First Website",
       "image": "/photo/firstWebsite.png",
-      "description": "The first website I created using HTML,CSS and JS. It is my personal website to introduce myself.",
+      "description": "The first website I built with HTML,CSS and JS. It is my personal website to introduce myself.",
       "technologies": "HTML|CSS|JavaScript",
       "url": "https://kyungin-first-website.netlify.app/",
       "github": "https://github.com/KyunginNa/first_website.git"
@@ -21,7 +21,7 @@
       "id": 3, 
       "name": "Library",
       "image": "/photo/library.png",
-      "description": "A backend program built with Ruby. It allows users to borrow and return books from a virtual library. Book data of the library is stored in a YAML file. Practiced TDD using RSpec.",
+      "description": "A backend program built with Ruby. It allows users to borrow and return books from a virtual library. The data of books a library has is stored in a YAML file. Practiced TDD using RSpec.",
       "technologies": "Ruby|RSpec|YAML",
       "github": "https://github.com/KyunginNa/library-challenge.git"
     }
