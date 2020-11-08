@@ -9,7 +9,7 @@ const Home = () => {
       <h1>
         I'm Kyungin Na, <br />a web developer based in Stockholm, Sweden.
       </h1>
-      <p id="intro">
+      <p id="home-intro">
         I'm currently studying at Craft Academy to start a career as a full
         stack web developer.
         <br />

@@ -29,30 +29,30 @@ footer {
   margin-top: 4em;
 }
 
-#projects-header {
-  margin-bottom: 1.5em;
+#welcome {
+  margin-top: 14em;
+  text-align: left;
 }
 
-#urlIcon-3 {
-  visibility: hidden;
-}
-
-#intro {
+#home-intro {
   font-size: 16px;
   padding-top: 8px;
 }
 
-#welcome {
-  margin-top: 14em;
-  text-align: left;
+#about-basic-passion {
+  width: 600px;
 }
 
 .hobby {
   margin-top: 0.7em;
 }
 
-#about-basic-passion {
-  width: 600px;
+#projects-header {
+  margin-bottom: 1.5em;
+}
+
+#urlIcon-3 {
+  visibility: hidden;
 }
 
 #cv-header {
@@ -62,7 +62,6 @@ footer {
 
 #cv-summary {
   padding-bottom: 1em;
-  width: 1060px;
 }
 
 .cv-exp-title {
