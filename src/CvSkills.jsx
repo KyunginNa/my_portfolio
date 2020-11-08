@@ -38,7 +38,7 @@ const CvSkills = () => {
         <List.Item>Korean</List.Item>
         <List.Item>Japanese</List.Item>
         <List.Item>English</List.Item>
-        <List.Item style={{color: "grey"}}>(Slowly learning Swedish😉)</List.Item>
+        <List.Item style={{color: "grey"}}>( Slowly learning Swedish😉 )</List.Item>
       </List>
     </div>
   );
