@@ -1,11 +1,12 @@
 # Portfolio
 
-This website is made with React 17.0.1. You can check some brief information about me and my projects.
+This website is my personal website built with React 17.0.1 and Semantic UI React.  
+You can find some information about me and my projects on this website.
 
 ## The code
 
 Deployed App: (https://kyungin-portfolio.netlify.app/)  
-Code: (https://github.com/KyunginNa/my_portfolio)
+Github: (https://github.com/KyunginNa/my_portfolio)
 
 ## Dependencies
 
@@ -17,14 +18,14 @@ Cypress
 
 ## Acknowledgements
 
-Project instructions from Craft Academy: (https://learn.craftacademy.co/courses/enrolled/659433)
-(https://bchiang7.github.io/v2/)
-(https://brittanychiang.com/)
-(https://zety.com/blog/it-resume-example)
+Project instructions from Craft Academy: (https://learn.craftacademy.co/courses/enrolled/659433)  
+Overall design/content inspiration from: (https://bchiang7.github.io/v2/) and (https://brittanychiang.com/)  
+CV inspiration from: (https://zety.com/blog/it-resume-example)
 
 ## Update and Improvements plans
 
-- Update My Projects.
+- Add more Projects on My Projects page.
+- Fix the problem that "home" menu is active when the website is reloaded.
 
 ## License
 
