@@ -18,8 +18,8 @@ Cypress
 
 ## Acknowledgements
 
-Project instructions from Craft Academy: (https://learn.craftacademy.co/courses/enrolled/659433)
-Overall design/content inspiration from: (https://bchiang7.github.io/v2/) and (https://brittanychiang.com/)
+Project instructions from Craft Academy: (https://learn.craftacademy.co/courses/enrolled/659433)  
+Overall design/content inspiration from: (https://bchiang7.github.io/v2/) and (https://brittanychiang.com/)  
 CV inspiration from: (https://zety.com/blog/it-resume-example)
 
 ## Update and Improvements plans
