@@ -1,7 +1,7 @@
 import React from "react";
 import { Divider, Header, Icon, Grid } from "semantic-ui-react";
 
-const Hobby = () => {
+const AboutHobby = () => {
   return (
     <div id="about-hobby">
       <Divider horizontal>
@@ -29,4 +29,4 @@ const Hobby = () => {
   );
 };
 
-export default Hobby;
+export default AboutHobby;

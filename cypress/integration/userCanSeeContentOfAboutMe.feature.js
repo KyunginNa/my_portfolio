@@ -9,7 +9,7 @@ describe("user can see content of About Me", () => {
             cy.get(".list").should("contain", "Craft Academy").and("contain", "Stockholm").and("contain", "nakyungin93@gmail.com")
             cy.get("#about-basic-passion").should(
                 "contain",
-                "I have a passion in creating things and solving problems in logical ways, which explains why I fell in love with programming. I aim to be a programmer who makes applications in user-friendly ways."
+                "I have a passion for creating things and logical problem solving, which explains why I fell in love with programming. I aim to be a programmer who never lose a business perspective."
             )
         })
     })

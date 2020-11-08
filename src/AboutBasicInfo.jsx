@@ -1,7 +1,7 @@
 import React from "react";
 import { Image, List, Grid } from "semantic-ui-react";
 
-const BasicInfo = () => {
+const AboutBasicInfo = () => {
   return (
     <div>
       <Grid id="about-basic" style={{ marginTop: "-1.5em" }}>
@@ -24,10 +24,9 @@ const BasicInfo = () => {
               />
             </List>
             <p id="about-basic-passion">
-              I have a passion in creating things and solving problems in
-              logical ways, which explains why I fell in love with programming.
-              I aim to be a programmer who makes applications in user-friendly
-              ways.
+              I have a passion for creating things and logical problem solving,
+              which explains why I fell in love with programming. I aim to be a
+              programmer who never lose a business perspective.
             </p>
           </Grid.Column>
         </Grid.Row>
@@ -36,4 +35,4 @@ const BasicInfo = () => {
   );
 };
 
-export default BasicInfo;
+export default AboutBasicInfo;
