@@ -20,6 +20,7 @@ Cypress
 Project instructions from Craft Academy: (https://learn.craftacademy.co/courses/enrolled/659433)
 (https://bchiang7.github.io/v2/)
 (https://brittanychiang.com/)
+(https://zety.com/blog/it-resume-example)
 
 ## Update and Improvements plans
 

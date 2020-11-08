@@ -48,9 +48,39 @@ footer {
 }
 
 .hobby {
-  margin-top: 1em;
+  margin-top: 0.7em;
 }
 
-#about-basic-passion{
+#about-basic-passion {
   width: 600px;
+}
+
+#cv-header {
+  margin-top: -3em;
+  margin-bottom: -0.5em;
+}
+
+#cv-summary {
+  padding-bottom: 1em;
+  width: 1060px;
+}
+
+.cv-exp-title {
+  margin-bottom: -1.5em;
+}
+
+#cv-education-header {
+  padding-top: 1.5em;
+}
+
+.cv-edu-university {
+  margin-bottom: -1.5em;
+}
+
+.cv-edu-details {
+  padding-bottom: 1em;
+}
+
+#cv-contact-header {
+  padding-top: 1.5em;
 }

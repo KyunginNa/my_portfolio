@@ -30,12 +30,20 @@ class Header extends Component {
             to={{ pathname: "/about" }}
           />
           <Menu.Item
-            name="my projects"
             id="projects-tab"
+            name="my projects"
             active={activeItem === "my projects"}
             onClick={this.handleItemClick}
             as={NavLink}
             to={{ pathname: "/projects" }}
+          />
+          <Menu.Item
+            name="CV"
+            id="cv-tab"
+            active={activeItem === "CV"}
+            onClick={this.handleItemClick}
+            as={NavLink}
+            to={{ pathname: "/cv" }}
           />
         </Menu>
       </div>
