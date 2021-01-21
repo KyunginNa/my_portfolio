@@ -10,11 +10,11 @@ Github: (https://github.com/KyunginNa/my_portfolio)
 
 ## Dependencies
 
-React
-React-router-dom
-Semantic-ui-react
-Axios
-Cypress
+- React
+- React-router-dom
+- Semantic-ui-react
+- Axios
+- Cypress
 
 ## Acknowledgements
 
