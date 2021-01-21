@@ -8,30 +8,39 @@ describe("User can see list of projects", () => {
         cy.get("#project-1").within(() => {
             cy.get(".image").should("exist")
             cy.get(".header").should("contain", "My First Website")
+            cy.get(".meta").should("contain", "HTML|CSS|JavaScript")
             cy.get(".description").should(
                 "contain",
-                "This was my first project."
+                "The first website I created using HTML,CSS and JS. It is my personal website to introduce myself."
             )
+            cy.get("#urlIcon-1").should("exist")
+            cy.get("#gitIcon-1").should("exist")
         })
     })
 
     it("displays the second project", () => {
         cy.get("#project-2").within(() => {
             cy.get(".image").should("exist")
-            cy.get(".header").should("contain", "FizzBuzz")
+            cy.get(".header").should("contain", "Address Book")
             cy.get(".description").should(
                 "contain",
-                "Making ruby backend application is fun.")
+                "A single page web application for saving and viewing contacts. Contacts are saved in the user's local storage. Practiced TDD using Cypress.")
+            cy.get(".meta").should("contain", "HTML|CSS|JavaScript|Cypress")
+            cy.get("#urlIcon-2").should("exist")
+            cy.get("#gitIcon-2").should("exist")
         })
     })
 
     it("displays the third project", () => {
         cy.get("#project-3").within(() => {
             cy.get(".image").should("exist")
-            cy.get(".header").should("contain", "Mobile UX")
+            cy.get(".header").should("contain", "Library")
             cy.get(".description").should(
                 "contain",
-                "I like to design for the mobile platform.")
+                "A backend program built with Ruby. It allows users to borrow and return books from a virtual library. Book data of the library is stored in a YAML file. Practiced TDD using RSpec.")
+            cy.get(".meta").should("contain", "Ruby|RSpec|YAML")
+            cy.get("#urlIcon-3").should("not.be.visible")
+            cy.get("#gitIcon-3").should("exist")
         })
     })
 })

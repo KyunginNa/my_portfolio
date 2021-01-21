@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Grid } from "semantic-ui-react";
 import axios from "axios";
-import ProjectCard from './ProjectCard'
+import ProjectCard from "./ProjectCard";
 
 class Projects extends Component {
   state = {
