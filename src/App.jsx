@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./Home";
-import Header from "./Header";
-import Footer from "./Footer";
-import About from "./About";
-import Projects from "./Projects";
-import Cv from "./Cv";
+import Home from "./components/Home";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Cv from "./components/Cv";
 import { Route, Switch } from "react-router-dom";
 
 const App = () => {
