@@ -15,9 +15,7 @@ class Projects extends Component {
   }
 
   render() {
-    const { projects } = this.state;
-
-    let projectsList = projects.map((project) => {
+    let projectsList = this.state.projects.map((project) => {
       return (
         <div id={`project-${project.id}`} key={project.id}>
           <ProjectCard project={project} />
