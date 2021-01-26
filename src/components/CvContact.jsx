@@ -14,7 +14,7 @@ const CvContact = () => {
         </List.Item>
         <List.Item>
           <List.Icon name="phone" color="blue" />
-          <List.Content>(To be updated)</List.Content>
+          <List.Content>+46 70-799 49 65</List.Content>
         </List.Item>
         <List.Item>
           <List.Icon name="window maximize outline" color="blue" />
@@ -27,7 +27,7 @@ const CvContact = () => {
         <List.Item>
           <List.Icon name="home" color="blue" />
           <List.Content>
-            Lgh 1004, Erik Dahlbergsgatan 39, <br />
+            Erik Dahlbergsgatan 39, <br />
             115 32 Stockholm, Sweden
           </List.Content>
         </List.Item>
