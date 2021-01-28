@@ -9,7 +9,7 @@ const CvSkills = () => {
       </Header>
       <List id="cv-skills-list">
         <List.Item>
-          <List.Header>Programming languages:</List.Header> JavaScript(ES6), CSS, HTML, Ruby
+          <List.Header>Programming Languages:</List.Header> JavaScript(ES6), CSS, HTML, Ruby
         </List.Item>
         <List.Item>
           <List.Header>Programming Libraries:</List.Header> React, Ruby on Rails
