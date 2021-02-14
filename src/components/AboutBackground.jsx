@@ -10,15 +10,13 @@ const AboutBackground = () => {
           Background
         </Header>
       </Divider>
-      <Grid columns={1} textAlign="center">
+      <Grid columns={1} textAlign="left" centered>
         <Grid.Column width={12}>
           <p id="about-back-summary">
             I was born and raised in South Korea. After graduating from high
-            school, I moved to Japan and majored in Business and Economics at
-            Kyoto University. I worked as a business consultant at a
-            multinational IT consulting firm in Japan for 2 years. Recently, I
-            decided to make a career shift to be a software engineer. I'm
-            currently learning web development at Craft Academy Bootcamp.
+            school, I moved to Japan to study Business and Economics at
+            Kyoto University. I worked as a business analyst at a
+            multinational IT consulting firm in Japan for 2 years. In Febuaray 2021, I completed web development bootcamp at Craft Academy, Sweden to make a career change.
             <br />
             (More information can be found in
             <a href="https://kyungin-portfolio.netlify.app/cv"> my CV</a>!)

@@ -12,7 +12,6 @@ const AboutBasicInfo = () => {
           <Grid.Column width={10}>
             <h2 id="about-header">Kyungin Na</h2>
             <List>
-              <List.Item icon="users" content="Craft Academy" />
               <List.Item icon="marker" content="Stockholm, Sweden" />
               <List.Item
                 icon="mail"
@@ -24,7 +23,7 @@ const AboutBasicInfo = () => {
               />
             </List>
             <p id="about-basic-passion">
-              I have a passion for creating things and logical problem solving,
+              I enjoy learning new things and challenging myself. Creating my own things and solving problems keep me motivated, 
               which explains why I fell in love with programming. I aim to be a
               programmer who never lose a business perspective.
             </p>
