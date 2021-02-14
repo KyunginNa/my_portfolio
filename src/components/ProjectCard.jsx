@@ -11,19 +11,22 @@ const ProjectCard = ({ project }) => {
           borderColor: "lightgrey",
           borderRadius: "5px",
           boxShadow: "0 0 3px 2px grey",
+          width: 400
         }}
       >
-        <Image src={project.image} wrapped ui={false} />
-        <Card.Content style={{ height: "170px" }}>
+        <Image src={project.image} style={{ height: 300 }} />
+        <Card.Content style={{ height: 180 }}>
           <Card.Header>{project.name}</Card.Header>
           <Card.Meta>{project.technologies}</Card.Meta>
           <Card.Description>{project.description}</Card.Description>
         </Card.Content>
         <Card.Content extra textAlign="right">
-          <a href={project.url}>
-            <Icon name="external alternate" id={`urlIcon-${project.id}`} />
-          </a>
-          <a href={project.github}>
+          {project.url &&
+            <a href={project.url} target="_blank">
+              <Icon name="external alternate" id={`urlIcon-${project.id}`} />
+            </a>
+          }
+          <a href={project.github} target="_blank">
             <Icon name="github" id={`gitIcon-${project.id}`} />
           </a>
         </Card.Content>
