@@ -13,15 +13,13 @@ code {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 40px;
   padding-top: 10px;
   padding-bottom: 20px;
   background-color: lightgrey;
-  margin-top: 0;
-  margin-bottom: 0;
   text-align: center;
 }
 
@@ -49,37 +47,4 @@ footer {
 
 #projects-header {
   margin-bottom: 1.5em;
-}
-
-#urlIcon-3 {
-  visibility: hidden;
-}
-
-#cv-header {
-  margin-top: -3em;
-  margin-bottom: -0.5em;
-}
-
-#cv-summary {
-  padding-bottom: 1em;
-}
-
-.cv-exp-title {
-  margin-bottom: -1.5em;
-}
-
-#cv-education-header {
-  padding-top: 1.5em;
-}
-
-.cv-edu-university {
-  margin-bottom: -1.5em;
-}
-
-.cv-edu-details {
-  padding-bottom: 1em;
-}
-
-#cv-contact-header {
-  padding-top: 1.5em;
 }
