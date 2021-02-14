@@ -9,9 +9,11 @@ const ProjectCard = ({ project }) => {
         style={{
           borderStyle: "thin",
           borderColor: "lightgrey",
-          borderRadius: "5px",
+          borderRadius: 5,
           boxShadow: "0 0 3px 2px grey",
-          width: 400
+          width: 400,
+          marginBottom: 40,
+          textAlign: 'left'
         }}
       >
         <Image src={project.image} style={{ height: 300 }} />
@@ -22,11 +24,11 @@ const ProjectCard = ({ project }) => {
         </Card.Content>
         <Card.Content extra textAlign="right">
           {project.url &&
-            <a href={project.url} target="_blank">
+            <a href={project.url} target="_blank" rel="noreferrer noopener">
               <Icon name="external alternate" id={`urlIcon-${project.id}`} />
             </a>
           }
-          <a href={project.github} target="_blank">
+          <a href={project.github} target="_blank" rel="noreferrer noopener">
             <Icon name="github" id={`gitIcon-${project.id}`} />
           </a>
         </Card.Content>

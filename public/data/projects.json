@@ -42,5 +42,14 @@
     "technologies": "React|Cypress|Ruby on Rails|RSpec",
     "url": "https://trumpster-dumpster.netlify.app/",
     "github": "https://github.com/KyunginNa/trumpster_client"
+  },
+  {
+    "id": 6,
+    "name": "Cooper Test",
+    "image": "/photo/cooperTest.png",
+    "description": "A web application that allows users to calculate their cooper test result, save it, and view their past test results.",
+    "technologies": "React|Redux|Cypress|Ruby on Rails|RSpec",
+    "url": "https://cooper-test-result.netlify.app/",
+    "github": "https://github.com/KyunginNa/cooper_client"
   }
 ]

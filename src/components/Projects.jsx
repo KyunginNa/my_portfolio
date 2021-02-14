@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Grid } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import axios from "axios";
 import ProjectCard from "./ProjectCard";
 
@@ -23,10 +23,10 @@ class Projects extends Component {
       );
     });
     return (
-      <Container>
-        <h1 id="projects-header">My Projects</h1>
-        <Grid>{projectsList}</Grid>
-      </Container>
+      <div style={{ margin: 30 }}>
+        <h1 id="projects-header" style={{ textAlign: 'center' }}>My Projects</h1>
+        <Grid centered>{projectsList}</Grid>
+      </div>
     );
   }
 }
