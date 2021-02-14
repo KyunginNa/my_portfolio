@@ -18,8 +18,9 @@ const AboutBackground = () => {
             Kyoto University. I worked as a business analyst at a
             multinational IT consulting firm in Japan for 2 years. In Febuaray 2021, I completed web development bootcamp at Craft Academy, Sweden to make a career change.
             <br />
-            (More information can be found in
-            <a href="https://kyungin-portfolio.netlify.app/cv"> my CV</a>!)
+            <Icon name='search' />
+              More information can be found in my
+            <a href="../data/resume.pdf" target="_blank" rel="noreferrer noopener" > resume</a>!
           </p>
         </Grid.Column>
       </Grid>
