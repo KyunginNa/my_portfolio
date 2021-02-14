@@ -20,7 +20,7 @@ const AboutBackground = () => {
             <br />
             <Icon name='search' />
               More information can be found in my
-            <a href="../data/resume.pdf" target="_blank" rel="noreferrer noopener" > resume</a>!
+            <a href="../data/resume.pdf" target="_blank" rel="noreferrer noopener"> resume</a>!
           </p>
         </Grid.Column>
       </Grid>

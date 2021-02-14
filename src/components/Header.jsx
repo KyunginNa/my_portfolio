@@ -37,14 +37,9 @@ class Header extends Component {
             as={NavLink}
             to={{ pathname: "/projects" }}
           />
-          <Menu.Item
-            name="CV"
-            id="cv-tab"
-            active={activeItem === "CV"}
-            onClick={this.handleItemClick}
-            as={NavLink}
-            to={{ pathname: "/cv" }}
-          />
+          <Menu.Item style={{ height: 48.13 }}>
+            <a href="../data/resume.pdf" target="_blank" rel="noreferrer noopener" style={{ color: '#000000DE' }}>Resume</a>
+          </Menu.Item>
         </Menu>
       </div>
     );
