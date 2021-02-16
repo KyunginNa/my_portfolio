@@ -4,7 +4,7 @@ This website is my personal website built with React 17.0.1 and Semantic UI Reac
 
 ## The code
 
-[Deployed App(Netlify)](https://kyungin.netlify.app/)  
+[Deployed App(Netlify)](https://kyungin-portfolio.netlify.app/)  
 [Github](https://github.com/KyunginNa/my_portfolio)
 
 ## Dependencies
