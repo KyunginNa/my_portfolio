@@ -3,9 +3,12 @@ import { Menu } from "semantic-ui-react";
 import { NavLink, Link } from "react-router-dom";
 
 class Header extends Component {
-  state = { activeItem: "home" };
+  state = { activeItem: localStorage.getItem('activeItem') };
 
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name });
+  handleItemClick = (e, { name }) => {
+    localStorage.setItem('activeItem', name)
+    this.setState({ activeItem: name })
+  };
 
   render() {
     const { activeItem } = this.state;
