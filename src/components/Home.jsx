@@ -4,17 +4,15 @@ import HomeIcon from "./HomeIcon";
 
 const Home = () => {
   return (
-    <Container id="welcome">
-      <h2 id="home">Welcome!😃</h2>
-      <h1>
-        I'm Kyungin Na, <br />a web developer based in Stockholm, Sweden.
+    <Container className="home-container" data-cy="home-container">
+      <h1 className="home-header">Hej!<br />
+      I'm Kyungin Na, <br />a web developer based in Stockholm, Sweden.
       </h1>
-      <p id="home-intro">
-        On this website, <br />
-        you can find some brief information about me and
-        the projects that I have worked on.
-      </p>
-      <div id="homeIcon">
+      <h2 className="home-description">
+        On this website, you can find some brief information about me <br />
+        and the projects that I have worked on.
+      </h2>
+      <div>
         <HomeIcon />
       </div>
     </Container>

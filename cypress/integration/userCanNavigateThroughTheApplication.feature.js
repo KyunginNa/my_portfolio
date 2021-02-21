@@ -21,7 +21,7 @@ describe('user can navigate the app', () => {
     })
 
     it('does not display Home header', () => {
-      cy.get('#home').should('not.exist')
+      cy.get('[data-cy="home-container"]').should('not.exist')
     })
   })
 
@@ -43,7 +43,7 @@ describe('user can navigate the app', () => {
     })
 
     it('does not display Home header', () => {
-      cy.get('#home').should('not.exist')
+      cy.get('[data-cy="home-container"]').should('not.exist')
     })
   })
 
@@ -54,7 +54,7 @@ describe('user can navigate the app', () => {
     })
 
     it('displays welcome', () => {
-      cy.get('#home').should('contain', 'Welcome!')
+      cy.get('[data-cy="home-container"]').should('contain', 'Hej!')
     })
 
     it('displays correct url', () => {

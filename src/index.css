@@ -7,23 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.bg-image {
+  background-image: url('https://images.unsplash.com/photo-1488415032361-b7e238421f1b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1949&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-header {
+  font-size: 2.5rem;
+}
+
+.home-description {
+  font-size: 2rem;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-.container {
-  margin-top: 4em;
-}
-
-#welcome {
-  margin-top: 14em;
+.home-container {
+  margin-top: 7em;
   text-align: left;
-}
-
-#home-intro {
-  font-size: 16px;
-  padding-top: 8px;
+  color: aliceblue;
 }
 
 #about-basic-passion {
