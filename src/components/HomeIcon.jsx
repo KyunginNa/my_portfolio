@@ -5,7 +5,7 @@ const HomeIcon = () => {
   return (
     <div>
       <a href="mailto:nakyungin93@gmail.com">
-        <Button animated="vertical" basic color="grey">
+        <Button animated="vertical" inverted size="large">
           <Button.Content hidden>
             <Icon name="mail" />
           </Button.Content>
@@ -14,7 +14,7 @@ const HomeIcon = () => {
       </a>
 
       <a href="https://www.linkedin.com/in/kyungin-na-636b8b175/">
-        <Button animated="vertical" basic color="grey">
+        <Button animated="vertical" inverted size="large">
           <Button.Content hidden>
             <Icon name="linkedin" />
           </Button.Content>
@@ -23,7 +23,7 @@ const HomeIcon = () => {
       </a>
 
       <a href="https://github.com/KyunginNa">
-        <Button animated="vertical" basic color="grey">
+        <Button animated="vertical" inverted size="large">
           <Button.Content hidden>
             <Icon name="github" />
           </Button.Content>
