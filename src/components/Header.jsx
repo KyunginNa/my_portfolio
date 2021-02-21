@@ -15,9 +15,9 @@ class Header extends Component {
 
     return (
       <div>
-        <Menu pointing secondary size="huge">
+        <Menu inverted pointing secondary size="huge">
           <Menu.Item
-            id="header"
+            data-cy="home"
             name="home"
             active={activeItem === "home"}
             onClick={this.handleItemClick}
@@ -25,7 +25,7 @@ class Header extends Component {
             to={{ pathname: "/" }}
           />
           <Menu.Item
-            id="about-tab"
+            data-cy="about-tab"
             name="about me"
             active={activeItem === "about me"}
             onClick={this.handleItemClick}
@@ -33,15 +33,18 @@ class Header extends Component {
             to={{ pathname: "/about" }}
           />
           <Menu.Item
-            id="projects-tab"
+            data-cy="projects-tab"
             name="my projects"
             active={activeItem === "my projects"}
             onClick={this.handleItemClick}
             as={NavLink}
             to={{ pathname: "/projects" }}
           />
-          <Menu.Item style={{ height: 48.13 }}>
-            <a href="../data/resume.pdf" target="_blank" rel="noreferrer noopener" style={{ color: '#000000DE' }}>Resume</a>
+          <Menu.Item
+            name="cv"
+            style={{ height: 48.13 }}
+          >
+            <a href="../data/resume.pdf" target="_blank" rel="noreferrer noopener">CV</a>
           </Menu.Item>
         </Menu>
       </div>

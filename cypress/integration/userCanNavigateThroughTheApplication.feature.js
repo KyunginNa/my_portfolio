@@ -5,11 +5,11 @@ describe('user can navigate the app', () => {
 
   describe('to About me tab and it', () => {
     beforeEach(() => {
-      cy.get('#about-tab').click()
+      cy.get('[data-cy="about-tab"]').click()
     })
 
     it('displays About Me header', () => {
-      cy.get('#about-header').should('contain', 'Kyungin Na')
+      cy.get('[data-cy="about-header"]').should('contain', 'Kyungin Na')
     })
 
     it('displays component name in url', () => {
@@ -17,7 +17,7 @@ describe('user can navigate the app', () => {
     })
 
     it('does not display My Projects header', () => {
-      cy.get('#projects-header').should('not.exist')
+      cy.get('[data-cy="projects-header"]').should('not.exist')
     })
 
     it('does not display Home header', () => {
@@ -27,11 +27,11 @@ describe('user can navigate the app', () => {
 
   describe('to My Projects tab and it', () => {
     beforeEach(() => {
-      cy.get('#projects-tab').click()
+      cy.get('[data-cy="projects-tab"]').click()
     })
 
     it('displays My Projects header', () => {
-      cy.get('#projects-header').should('contain', 'My Projects')
+      cy.get('[data-cy="projects-header"]').should('contain', 'My Projects')
     })
 
     it('displays component name in url', () => {
@@ -39,7 +39,7 @@ describe('user can navigate the app', () => {
     })
 
     it('does not display About Me header', () => {
-      cy.get('#about-header').should('not.exist')
+      cy.get('[data-cy="about-header"]').should('not.exist')
     })
 
     it('does not display Home header', () => {
@@ -49,8 +49,8 @@ describe('user can navigate the app', () => {
 
   describe('back to Home tab and it', () => {
     beforeEach(() => {
-      cy.get('#about-tab').click()
-      cy.get('#header').click()
+      cy.get('[data-cy="about-tab"]').click()
+      cy.get('[data-cy="home"]').click()
     })
 
     it('displays welcome', () => {
@@ -62,11 +62,11 @@ describe('user can navigate the app', () => {
     })
 
     it('does not display About Me header', () => {
-      cy.get('#about-header').should('not.exist')
+      cy.get('[data-cy="about-header"]').should('not.exist')
     })
 
     it('does not display My Projects header', () => {
-      cy.get('#projects-header').should('not.exist')
+      cy.get('[data-cy="projects-header"]').should('not.exist')
     })
   })
 })

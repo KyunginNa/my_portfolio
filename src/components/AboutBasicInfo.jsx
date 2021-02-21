@@ -10,7 +10,7 @@ const AboutBasicInfo = () => {
             <Image src="photo/grad.png" size="medium" circular bordered />
           </Grid.Column>
           <Grid.Column width={10}>
-            <h2 id="about-header">Kyungin Na</h2>
+            <h2 data-cy="about-header">Kyungin Na</h2>
             <List>
               <List.Item icon="marker" content="Stockholm, Sweden" />
               <List.Item

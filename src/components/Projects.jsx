@@ -24,7 +24,7 @@ class Projects extends Component {
     });
     return (
       <div style={{ margin: 30 }}>
-        <h1 id="projects-header" style={{ textAlign: 'center' }}>My Projects</h1>
+        <h1 data-cy="projects-header" style={{ textAlign: 'center', marginBottom: "1.5em" }}>My Projects</h1>
         <Grid centered>{projectsList}</Grid>
       </div>
     );

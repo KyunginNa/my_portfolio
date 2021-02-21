@@ -1,7 +1,7 @@
 describe('user can see content of About Me', () => {
   beforeEach(() => {
     cy.visit('http://localhost:3000')
-    cy.get('#about-tab').click()
+      cy.get('[data-cy="about-tab"]').click()
   })
   it('displays basic information', () => {
     cy.get('#about-basic').within(() => {
