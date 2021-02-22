@@ -11,10 +11,6 @@ const ProjectCard = ({ project }) => {
       <Card
         color="teal"
         style={{
-          // borderStyle: "thin",
-          // borderColor: "lightgrey",
-          // borderRadius: 5,
-          // boxShadow: "0 0 3px 2px grey",
           width: 350,
           marginBottom: 40,
           textAlign: 'left',
@@ -22,7 +18,7 @@ const ProjectCard = ({ project }) => {
         }}
       >
         <Card.Content style={{ height: 250 }}>
-          <Card.Header style={{ color: '#00B5AD' }}><Icon name='folder open'/>{project.name}</Card.Header>
+          <Card.Header style={{ color: '#00B5AD' }}><Icon name='folder open' />{project.name}</Card.Header>
           <Card.Description style={{ height: 130 }}>{project.description}</Card.Description>
           <Card.Meta style={{ marginTop: 10 }}>{technologyLabel}</Card.Meta>
         </Card.Content>

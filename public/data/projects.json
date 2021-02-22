@@ -18,8 +18,15 @@
     "id": 2,
     "name": "Kitty News",
     "image": "/photo/kittyNews.png",
-    "description": "A web application for users of Kitty News, built with React. Visitors can sign up and pay a subscription fee to get full access to all articles. Users can choose UI language. Implemented Stripe for subscription feature.",
-    "technologies": ["React", "React Native", "Redux", "Cypress", "Ruby on Rails", "RSpec"],
+    "description": "A web application for users of Kitty News, built with React. Visitors can sign up and pay a subscription fee to get full access to all articles. Users can choose UI language. Implemented Stripe for subscription feature. Also built a mobile app that has fewer functions.",
+    "technologies": [
+      "React",
+      "React Native",
+      "Redux",
+      "Cypress",
+      "Ruby on Rails",
+      "RSpec"
+    ],
     "url": "https://kittynews.netlify.app/",
     "github": "https://github.com/KyunginNa/kitty_news_client_user"
   },
