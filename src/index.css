@@ -34,8 +34,9 @@ code {
   color: aliceblue;
 }
 
-#about-basic-passion {
-  width: 600px;
+.link {
+  font-weight: bolder;
+  color: #00B5AD;
 }
 
 .hobby {

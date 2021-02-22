@@ -3,17 +3,17 @@ import { Divider, Header, Icon, Grid, List } from "semantic-ui-react";
 
 const AboutSkills = () => {
   return (
-    <div id="about-skills">
+    <>
       <Divider horizontal>
-        <Header as="h4">
-          <Icon name="keyboard" />
+        <Header as="h4" color="teal">
+          <Icon name="keyboard" color="teal" />
           Skills
         </Header>
       </Divider>
-      <Grid columns={3} relaxed textAlign="center">
-        <Grid.Column>
+      <Grid textAlign="center">
+        <Grid.Column width={3}>
           <h4>Development</h4>
-          <List id="about-skills-dev">
+          <List>
             <List.Item>
               <List.Content>HTML5</List.Content>
             </List.Item>
@@ -37,9 +37,9 @@ const AboutSkills = () => {
             </List.Item>
           </List>
         </Grid.Column>
-        <Grid.Column>
+        <Grid.Column width={3}>
           <h4>Testing Frameworks</h4>
-          <List id="about-skills-test">
+          <List>
             <List.Item>
               <List.Content>Cypress</List.Content>
             </List.Item>
@@ -48,16 +48,16 @@ const AboutSkills = () => {
             </List.Item>
           </List>
         </Grid.Column>
-        <Grid.Column>
+        <Grid.Column width={3}>
           <h4>Tools</h4>
-          <List id="about-skills-tools">
+          <List>
             <List.Item>
               <List.Content>Git & Github</List.Content>
             </List.Item>
           </List>
         </Grid.Column>
       </Grid>
-    </div>
+    </>
   );
 };
 

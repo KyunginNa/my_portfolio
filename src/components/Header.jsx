@@ -15,7 +15,7 @@ class Header extends Component {
 
     return (
       <div>
-        <Menu inverted pointing secondary size="huge">
+        <Menu inverted secondary size="huge" style={{ border: "none" }}>
           <Menu.Item
             data-cy="home"
             name="home"
@@ -40,11 +40,8 @@ class Header extends Component {
             as={NavLink}
             to={{ pathname: "/projects" }}
           />
-          <Menu.Item
-            name="cv"
-            style={{ height: 48.13 }}
-          >
-            <a href="../data/resume.pdf" target="_blank" rel="noreferrer noopener">CV</a>
+          <Menu.Item>
+            <a href="../data/resume.pdf" target="_blank" rel="noreferrer noopener">Resume</a>
           </Menu.Item>
         </Menu>
       </div>

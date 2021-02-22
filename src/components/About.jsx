@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "semantic-ui-react";
 import AboutBasicInfo from "./AboutBasicInfo";
 import AboutBackground from "./AboutBackground";
 import AboutSkills from "./AboutSkills";
@@ -7,12 +6,12 @@ import AboutHobby from "./AboutHobby";
 
 const About = () => {
   return (
-    <Container>
+    <div style={{ backgroundColor: 'rgba(255,255,255,0.8)', bottom: 0, position: 'fixed', top: 40}}>
       <AboutBasicInfo />
       <AboutBackground />
       <AboutSkills />
       <AboutHobby />
-    </Container>
+    </div>
   );
 };
 
