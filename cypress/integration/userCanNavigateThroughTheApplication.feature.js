@@ -31,7 +31,7 @@ describe('user can navigate the app', () => {
     })
 
     it('displays My Projects header', () => {
-      cy.get('[data-cy="projects-header"]').should('contain', 'My Projects')
+      cy.get('[data-cy="projects-header"]').should('contain', 'Featured Projects')
     })
 
     it('displays component name in url', () => {
