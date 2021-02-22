@@ -20,7 +20,7 @@ This website is my personal website built with React 17.0.1 and Semantic UI Reac
 - Project instructions from [Craft Academy](https://www.craftacademy.se/english/)  
 - Overall design/content inspiration from: (https://bchiang7.github.io/v2/) and (https://brittanychiang.com/)  
 - CV inspiration from: (https://zety.com/blog/it-resume-example)  
-- Awesome background image from [Unsplash](https://images.unsplash.com/photo-1488415032361-b7e238421f1b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1949&q=80)
+- Awesome background image from [Unsplash](https://unsplash.com/photos/EvKBHBGgaUo)
 
 ## Update and Improvements plans
 
