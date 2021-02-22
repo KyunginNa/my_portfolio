@@ -3,12 +3,12 @@ import { Image, List, Grid } from "semantic-ui-react";
 
 const AboutBasicInfo = () => {
   return (
-    <Grid columns={2} centered>
+    <Grid columns={2} centered data-cy="about-basic">
       <Grid.Row centered verticalAlign="middle">
-        <Grid.Column width={3}>
+        <Grid.Column width={2}>
           <Image src="photo/grad.png" circular bordered />
         </Grid.Column>
-        <Grid.Column width={6}>
+        <Grid.Column width={7}>
           <h2 data-cy="about-header">Kyungin Na</h2>
           <List>
             <List.Item icon="marker" content="Stockholm, Sweden" />

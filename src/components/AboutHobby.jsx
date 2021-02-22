@@ -11,7 +11,7 @@ const AboutHobby = () => {
         </Header>
       </Divider>
 
-      <Grid textAlign="center">
+      <Grid textAlign="center" data-cy="about-hobby">
         <Grid.Column width={3}>
           <Icon name="leaf" size="big" color="teal"></Icon>
           <p className="hobby">Yoga</p>

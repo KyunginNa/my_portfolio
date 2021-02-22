@@ -10,7 +10,7 @@ const AboutSkills = () => {
           Skills
         </Header>
       </Divider>
-      <Grid textAlign="center">
+      <Grid textAlign="center" data-cy="about-skills">
         <Grid.Column width={3}>
           <h4>Development</h4>
           <List>
@@ -21,7 +21,7 @@ const AboutSkills = () => {
               <List.Content>CSS3</List.Content>
             </List.Item>
             <List.Item>
-              <List.Content>JavaScript(ES6)</List.Content>
+              <List.Content>JavaScript(ES6+)</List.Content>
             </List.Item>
             <List.Item>
               <List.Content>React</List.Content>
@@ -33,7 +33,7 @@ const AboutSkills = () => {
               <List.Content>Redux</List.Content>
             </List.Item>
             <List.Item>
-              <List.Content>Ruby</List.Content>
+              <List.Content>Ruby on Rails</List.Content>
             </List.Item>
           </List>
         </Grid.Column>

@@ -6,7 +6,7 @@ import AboutHobby from "./AboutHobby";
 
 const About = () => {
   return (
-    <div style={{ backgroundColor: 'rgba(255,255,255,0.8)', bottom: 0, position: 'fixed', top: 50, paddingTop: '2em'}}>
+    <div style={{ backgroundColor: 'rgba(255,255,255,0.8)', bottom: 0, position: 'fixed', top: 50, paddingTop: '5em'}}>
       <AboutBasicInfo />
       <AboutBackground />
       <AboutSkills />
