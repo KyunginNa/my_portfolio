@@ -4,7 +4,14 @@
     "name": "TuneShare",
     "image": "/photo/tuneshare.jpeg",
     "description": "A mobile application built with React Native where the user can post their favorite music and share their thoughts. The backend server is using the Spotify API to provide users with music data to post.",
-    "technologies": "React Native|Redux|Cypress|Jest|Ruby on Rails|RSpec",
+    "technologies": [
+      "React Native",
+      "Redux",
+      "Cypress",
+      "Jest",
+      "Ruby on Rails",
+      "RSpec"
+    ],
     "github": "https://github.com/KyunginNa/tuneshare_client"
   },
   {
@@ -12,7 +19,7 @@
     "name": "Kitty News",
     "image": "/photo/kittyNews.png",
     "description": "A web application for users of Kitty News, built with React. Visitors can sign up and pay a subscription fee to get full access to all articles. Users can choose UI language. Implemented Stripe for subscription feature.",
-    "technologies": "React|Redux|Cypress|Ruby on Rails|RSpec",
+    "technologies": ["React", "React Native", "Redux", "Cypress", "Ruby on Rails", "RSpec"],
     "url": "https://kittynews.netlify.app/",
     "github": "https://github.com/KyunginNa/kitty_news_client_user"
   },
@@ -21,7 +28,7 @@
     "name": "Slowfood",
     "image": "/photo/slowfood.png",
     "description": "A web application for ordering food, built with React. Registered users can add products to their order and check out the current order. Implemented Stripe for payment feature.",
-    "technologies": "React|Redux|Cypress|Ruby on Rails|RSpec",
+    "technologies": ["React", "Redux", "Cypress", "Ruby on Rails", "RSpec"],
     "url": "https://kfood.netlify.app/",
     "github": "https://github.com/KyunginNa/slowfood_client_team2_october2020"
   },
@@ -30,7 +37,7 @@
     "name": "Rock Paper Scissors Game",
     "image": "/photo/RPS.png",
     "description": "A web application for a rock paper scissors game between two local players, built with react and redux. Users can either choose their own pick from R/P/S or make the computer choose one for them.",
-    "technologies": "React|Redux|Cypress",
+    "technologies": ["React", "Redux", "Cypress"],
     "url": "https://kyungin-rps-ver3.netlify.app/",
     "github": "https://github.com/KyunginNa/rps_challenge"
   },
@@ -39,7 +46,7 @@
     "name": "Trumpster",
     "image": "/photo/trumpster.png",
     "description": "A web application created for the sole purpose of making fun of the former president of the United States, Mr. Donald J. Trump. Users can view a random quote, search quotes by keyword, and customize their own insult using quotes. Using an external API called Tronald Dump to get the quotes.",
-    "technologies": "React|Cypress|Ruby on Rails|RSpec",
+    "technologies": ["React", "Cypress", "Ruby on Rails", "RSpec"],
     "url": "https://trumpster-dumpster.netlify.app/",
     "github": "https://github.com/KyunginNa/trumpster_client"
   },
@@ -48,7 +55,7 @@
     "name": "Cooper Test",
     "image": "/photo/cooperTest.png",
     "description": "A web application that allows users to calculate their cooper test result, save it, and view their past test results.",
-    "technologies": "React|Redux|Cypress|Ruby on Rails|RSpec",
+    "technologies": ["React", "Redux", "Cypress", "Ruby on Rails", "RSpec"],
     "url": "https://cooper-test-result.netlify.app/",
     "github": "https://github.com/KyunginNa/cooper_client"
   }
