@@ -5,10 +5,10 @@ const AboutBasicInfo = () => {
   return (
     <Grid columns={2} centered>
       <Grid.Row centered verticalAlign="middle">
-        <Grid.Column width={2}>
+        <Grid.Column width={3}>
           <Image src="photo/grad.png" circular bordered />
         </Grid.Column>
-        <Grid.Column width={7}>
+        <Grid.Column width={6}>
           <h2 data-cy="about-header">Kyungin Na</h2>
           <List>
             <List.Item icon="marker" content="Stockholm, Sweden" />
